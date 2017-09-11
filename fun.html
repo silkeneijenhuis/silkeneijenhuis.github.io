@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Silke Neijenhuis: Things I have created for fun</title>
+        <meta name="description" content="Silke Neijenhuis is a Digital Graphic Designer based in Berlin">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="css/fun.css" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" type="image/png" href="...">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-xs-2 links hidden-xs hidden-sm">
+                <a href="index.html"><img src="images/silke-Neijenhuis.jpg" class="img-circle">
+                <h4 style="text-align:center; font-weight:200">Portfolio</h4>
+                <h5>by Silke Neijenhuis</h5></a>
+                <h6>UI/UX Designer based in Berlin</h6>
+                <hr style="opacity:.5"></hr>
+                <a href="work.html"><h3>W<i>ORK</i></h3></a>
+                <a href="fun.html" class="activeLink"><h3>FUN Stuff</h3></a>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 footer hidden-xs hidden-sm">
+                    <div class="col-xs-2 col-xs-offset-1 linkIcons">
+                        <a href="mailto:silke.neijenhuis@gmail.com" target="_blank"><img src="images/envelope-square.svg"></a>
+                    </div>
+                    <div class="col-xs-2 linkIcons">
+                        <a href="https://www.linkedin.com/in/silke-neijenhuis-a9348b58/" target="_blank"><img src="images/linkedin-square.svg"></a>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-4 linkIcons">
+                        <a href="#imprint" data-toggle="modal" data-target="#imprint"><img src="images/legal-square.svg"></a>                    
+                    </div>
+
+                </div>
+            </div>        
+            <div class="col-xs-12 links visible-xs visible-sm">
+                <div class="col-xs-4">
+                    <a href="index.html"><img src="images/silke-Neijenhuis.jpg" class="img-circle"></a>
+                </div>
+                <div class="col-xs-8">
+                    <h4 style="font-weight:200">Portfolio</h4>
+                    <h5>by Silke Neijenhuis</h5>
+                    <h6>UI/UX Designer based in Berlin</h6>
+                </div>
+                <div class="col-xs-12">
+                    <hr style="opacity:.5"></hr>
+                </div>
+                <div class="col-xs-6">
+                    <a href="work.html"><h3>W<i>ORK</i></h3></a>
+                </div>
+        <div class="col-xs-6">
+                    <a href="fun.html"><h3>FUN Stuff</h3></a>
+                </div>
+            </div> 
+    
+            <div class="col-xs-12 col-sm-10 col-sm-offset-2 fun">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-1">
+                    <div class="col-xs-12 paragraph">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+
+                            <g id="motionPath" display="none">
+                                <path id="motionPath1" display="inline" fill="none" stroke="#2A1F40" stroke-miterlimit="10" d="M100,15 C50,0 0,0 -50,15 C -100,0 -150,0 -200,15 C -250,0 -300,0 -350,15 C -400,0 -450,0 -500,15"/>
+                                <path id="motionPath2" display="inline" fill="none" stroke="#2A1F40" stroke-miterlimit="10" d="M-500,15 C-550,0 -600,0 -650,15 C -700,0 -750,0 -800,15 C -850,0 -900,0 -950,15 C -1000,0 -1050,0 -1100,1 C -1150,0 -1200,0 -1250,1"/>
+
+                                <path id="motionPath3" display="inline" fill="none" stroke="#2A1F40" stroke-miterlimit="10" d="M0,195 L0,95 0,95 0,100 0,95 0,95 0,100 0,95 0,95 0,95 0,195"/>
+
+                                <path id="motionPath4" display="inline" fill="none" stroke="#2A1F40" stroke-miterlimit="10" d="M-200,0 C-150,3 -100,3 -50,0 "/>
+                                <path id="motionPath5" display="inline" fill="none" stroke="#2A1F40" stroke-miterlimit="10" d="M-240,0 C-200,3 -180,3 -160,0 C-150,5 -100,5  -90,0 "/>
+                            </g>
+
+                            <animateMotion xlink:href="#wave1" dur="8s" repeatCount="indefinite">
+                                   <mpath xlink:href="#motionPath4"/>
+                            </animateMotion>
+                            <animateMotion xlink:href="#wave2" dur="8s" repeatCount="indefinite">
+                                   <mpath xlink:href="#motionPath5"/>
+                            </animateMotion>
+                            <animate id="clickPlayButton" xlink:href="#play" dur="0.1s" begin="click" fill="freeze" attributeName="opacity" from="0.5" to="0">
+                            </animate>    
+                            <animateTransform id="animationTransformWale" xlink:href="#wal" attributeName="transform" type="translate" dur="0.1s" fill="freeze" begin="clickPlayButton.begin" values="20,45"></animateTransform>
+                            <animate id="animationShowWale" xlink:href="#wal" dur="0.1s" begin="animationTransformWale.end + 1s" fill="freeze" attributeName="opacity" from="0" to="1">
+                            </animate>
+                            <animateMotion id="animationWale1" xlink:href="#wal" dur="14s" begin="animationShowWale.end" fill="freeze" repeatCount="1">
+                                   <mpath xlink:href="#motionPath1"/>
+                            </animateMotion>
+                            <animateMotion id="animationWale2" xlink:href="#wal" begin="animationWaleEye5.end + .1s" dur="12s" fill="freeze" repeatCount="1">
+                                   <mpath xlink:href="#motionPath2"/>
+                            </animateMotion>
+                            <animate id="clickPlayButton" xlink:href="#play" dur="0.1s" begin="animationWale2.end" fill="freeze" attributeName="opacity" from="0" to="0.5">
+                            </animate>    
+
+                            <animate id="animationWaleEye1" xlink:href="#eye1" dur="0.1s" begin="animationWale1.begin" fill="freeze" attributeName="opacity" from="1" to="0">
+                            </animate>
+                            <animate id="animationWaleEye2" xlink:href="#eye1" dur="0.01s" begin="animationWale1.end" fill="freeze" attributeName="opacity" from="0" to="1">
+                            </animate>
+                            <animate id="animationWaleEye3" xlink:href="#eye1" dur="0.1s" begin="animationWaleEye2.end + 1s" fill="freeze" attributeName="opacity" from="1" to="0">
+                            </animate>
+                            <animate id="animationWaleEye4" xlink:href="#eye1" dur="0.1s" begin="animationFontain.end + .3s" fill="freeze" attributeName="opacity" from="0" to="1">
+                            </animate>
+                            <animate id="animationWaleEye5" xlink:href="#eye1" dur="0.1s" begin="animationWaleEye4.end + .4s" fill="freeze" attributeName="opacity" from="1" to="0">
+                            </animate>
+                            <animate id="animationFontain" xlink:href="#fontain" attributeName="d" fill="freeze" begin="animationWaleEye3.end + .1s" dur="6s" repeatCount="1" keyTimes="0; .1; .3; .4; .5; .7; .8; .85; .9; 1" values=" 
+                                        M 940,220
+                                        Q 940,220 940,220
+                                        Q 940,220 940,220
+                                        Q 940,220 940,220
+                                        Q 940,220 940,220z;                                                                            
+                                        M 940,220
+                                        Q 938,200 933,120
+                                        Q 933,110 940,110
+                                        Q 947,110 947,120
+                                        Q 942,200 940,220z;
+                                        M 940,220
+                                        Q 935,120 900,120
+                                        Q 900,110 940,110
+                                        Q 980,110 980,120
+                                        Q 945,120 940,220z;
+                                        M 940,210
+                                        Q 940,110 880,125
+                                        Q 890,90 940,110
+                                        Q 990,90 1000,125
+                                        Q 940,110 940,210z;
+                                        M 940,200
+                                        Q 940,120 880,120
+                                        Q 890,100 940,115
+                                        Q 990,100 1000,120
+                                        Q 940,120 940,200z;                                                              
+                                        M 940,200
+                                        Q 940,100 880,125
+                                        Q 890,100 940,110
+                                        Q 990,100 1000,125
+                                        Q 940,100 940,200z;
+                                        M 940,200
+                                        Q 940,120 880,120
+                                        Q 890,100 940,115
+                                        Q 990,100 1000,120
+                                        Q 940,120 940,200z;                                                              
+                                        M 940,220
+                                        Q 935,120 900,120
+                                        Q 900,110 940,110
+                                        Q 980,110 980,120
+                                        Q 945,120 940,220z;
+                                        M 940,220
+                                        Q 938,200 933,120
+                                        Q 933,110 940,110
+                                        Q 947,110 947,120
+                                        Q 942,200 940,220z;
+                                        M 940,220
+                                        Q 940,220 940,220
+                                        Q 940,220 940,220
+                                        Q 940,220 940,220
+                                        Q 940,220 940,220z                                                        
+                                "></animate>
+                            <animate xlink:href="#fontainFill" attributeName="d" begin="animationFontain.begin" dur="6s" repeatCount="1" keyTimes="0; .05; .1; .15; .5; .7; .8; .85; .9; 1"
+                                     values="M890,120
+                                                C900,120 910,110 920,110
+                                                C930,110 940,120 950,120
+                                                C960,120 970,110 980,110
+                                                C990,110 1000,120 1010,120
+                                                L1020,0 0,0z;
+                                             M890,120
+                                                C900,120 910,110 920,110
+                                                C930,110 940,120 950,120
+                                                C960,120 970,110 980,110
+                                                C990,110 1000,120 1010,120
+                                                L1020,0 0,0z;
+                                             M890,130
+                                                C900,130 910,120 920,120
+                                                C930,120 940,130 950,130
+                                                C960,130 970,120 980,120
+                                                C990,120 1000,130 1010,130
+                                                L1020,0 0,0z;
+                                             M890,135
+                                                C900,135 910,125 920,125
+                                                C930,125 940,135 950,135
+                                                C960,135 970,125 980,125
+                                                C990,125 1000,135 1010,135
+                                                L1020,0 0,0z;
+                                             M890,130
+                                                C900,130 910,120 920,120
+                                                C930,120 940,130 950,130
+                                                C960,130 970,120 980,120
+                                                C990,120 1000,130 1010,130
+                                                L1020,0 0,0z;
+                                             M890,135
+                                                C900,135 910,125 920,125
+                                                C930,125 940,135 950,135
+                                                C960,135 970,125 980,125
+                                                C990,125 1000,135 1010,135
+                                                L1020,0 0,0z;
+                                             M890,130
+                                                C900,130 910,120 920,120
+                                                C930,120 940,130 950,130
+                                                C960,130 970,120 980,120
+                                                C990,120 1000,130 1010,130
+                                                L1020,0 0,0z;
+                                             M890,130
+                                                C900,130 910,120 920,120
+                                                C930,120 940,130 950,130
+                                                C960,130 970,120 980,120
+                                                C990,120 1000,130 1010,130
+                                                L1020,0 0,0z;
+                                             M890,130
+                                                C900,130 910,120 920,120
+                                                C930,120 940,130 950,130
+                                                C960,130 970,120 980,120
+                                                C990,120 1000,130 1010,130
+                                                L1020,0 0,0z;
+                                             M890,260
+                                                C900,260 910,250 920,250
+                                                C930,250 940,260 950,260
+                                                C960,260 970,250 980,250
+                                                C990,250 1000,260 1010,260
+                                                L1020,0 0,0z">
+                            </animate> 
+
+                            <use xlink:href="#sky1" transform="translate(0,-540)" fill="#765869"></use>
+                            <use xlink:href="#sky1" transform="translate(0,-510)" fill="#8f616c"></use>
+                            <use xlink:href="#sky1" transform="translate(0,-470)" fill="#9c6a6c"></use>
+                            <use xlink:href="#sky1" transform="translate(0,-440)" fill="#a6716c"></use>
+                            <use xlink:href="#sky1" transform="translate(0,-415)" fill="#b0786c"></use>
+                            <use xlink:href="#sky1" transform="translate(0,-390)" fill="#bc806d"></use>
+                            <use xlink:href="#sky1" transform="translate(0,-365)" fill="#c6866d"></use>
+                            <use xlink:href="#sky1" transform="translate(0,-340)" fill="#d08d6d"></use>
+
+                            <use xlink:href="#wave1" transform="translate(0,-325)" fill="#8A606C "></use>
+                            <use xlink:href="#wave2" transform="translate(0,-310)" fill="#825D6B "></use>
+                            <use xlink:href="#wave1" transform="translate(0,-290)" fill="#79596A "></use>
+                            <use xlink:href="#wave2" transform="translate(0,-270)" fill="#715669 "></use>
+                            <use xlink:href="#wave1" transform="translate(0,-240)" fill="#695368 "></use>
+                            <use xlink:href="#wave2" transform="translate(0,-200)" fill="#645168 "></use>
+                            <use xlink:href="#wave1" transform="translate(0,-160)" fill="#5D4F67 "></use>
+                            <use xlink:href="#wave2" transform="translate(0,-120)" fill="#544B66 "></use>
+
+
+
+
+                            <g id="wal" opacity="0">
+                                    <g  mask="url(#fontainMask)">
+                                        <rect width="200%" height="100%" fill="#2A1F40"></rect>
+                                        <path id="fontainFill" fill="#8A606C"/>
+                                    </g>
+                                    <use xlink:href="#body" fill="#2A1F40"></use>
+                                    <path id="flapper" fill="#2A1F40" transform="translate(0,1)"> <animate attributeName="d" dur="3s" repeatCount="indefinite" values="M1121.5,345.5c0.7-3.9-35.3-3.3-11.4-18.1
+                                        c8.2-5.1,23.8-6.3,31.9-2.2c2,1,3.8,2.7,6.6,2.9c2.3,0.2,6.9-2,9.8-2.9c6.9-2.2,19.5-0.6,25.4,0.1c9.3,1.3,11.4,5.9,8.8,10.7
+                                        c-2,3.9-7,6.9-14,8c-10.1,1.5-27.2,0.9-28.7,8.5; M1121.5,342.9c0.7-5.4-35.3-4.5-11.4-24.8
+                                        c8.2-7,23.8-8.6,31.9-3.1c2,1.3,3.8,3.6,6.6,3.9c2.3,0.2,6.9-2.7,9.8-4c6.9-3,19.5-0.9,25.4,0.1c9.3,1.8,11.4,8,8.8,14.7
+                                        c-2,5.4-7,9.5-14,10.9c-10.1,2-27.2,1.2-28.7,11.7;M1121.5,345.5c0.7-3.9-35.3-3.3-11.4-18.1
+                                        c8.2-5.1,23.8-6.3,31.9-2.2c2,1,3.8,2.7,6.6,2.9c2.3,0.2,6.9-2,9.8-2.9c6.9-2.2,19.5-0.6,25.4,0.1c9.3,1.3,11.4,5.9,8.8,10.7
+                                        c-2,3.9-7,6.9-14,8c-10.1,1.5-27.2,0.9-28.7,8.5"/></path>
+
+                                    <path id="eye1" fill="#B27B8A" d="M875,350 Q 895,340 900,350 Q 890,360 875,350z"/>
+                                    <path id="eye2" fill="#B27B8A" d="M875,350 Q 890,355 900,350 Q 890,360 875,350z"/>
+
+                            </g>
+
+                            <use xlink:href="#wave1" transform="translate(0,-80)" fill="#4B4765 "></use>
+                            <use xlink:href="#wave2" transform="translate(0,-40)" fill="#424364 " ></use>
+                            <use xlink:href="#wave1" transform="translate(0,0)" fill="#373F63 "  ></use>
+
+
+                            <g id="elements" display="none">
+                                <mask id="fontainMask">
+                                    <path id="fontain" fill="white" transform="translate(0,10)"></path>
+                                </mask>
+                                <path id="sky1" d="M 0,535 
+                                                   C 25,535 50,530 75,530 C 100,530 125,535 150,535 
+                                                   C 175,535 200,530 225,530 C 250,530 275,535 300,535 
+                                                   C 325,535 350,530 375,530 C 400,530 425,535 450,535 
+                                                   C 475,535 500,530 525,530 C 550,530 575,535 600,535 
+                                                   C 625,535 650,530 675,530 C 700,530 725,535 750,535 
+                                                   C 775,535 800,530 825,530 C 850,530 875,535 900,535
+                                                   C 925,535 950,530 975,530 C 1000,530 1025,535 1050,535 
+                                                   C 1075,535 1100,530 1125,530 C 1150,530 1175,535 1200,535 
+                                                   C 1225,535 1250,530 1275,530 C 1300,530 1325,535 1350,535
+                                                   C 1375,535 1400,530 1425,530 C 1450,530 1475,535 1500,535 
+                                                   C 1525,535 1550,530 1575,530 C 1600,530 1625,535 1650,535
+                                                   L 1650,750 0,750z"/>
+                                <path id="wave1" d="M 0,540 
+                                                   C 25,540 50,530 75,530 C 100,530 125,540 150,540 
+                                                   C 175,540 200,530 225,530 C 250,530 275,540 300,540 
+                                                   C 325,540 350,530 375,530 C 400,530 425,540 450,540 
+                                                   C 475,540 500,530 525,530 C 550,530 575,540 600,540 
+                                                   C 625,540 650,530 675,530 C 700,530 725,540 750,540 
+                                                   C 775,540 800,530 825,530 C 850,530 875,540 900,540
+                                                   C 925,540 950,530 975,530 C 1000,530 1025,540 1050,540 
+                                                   C 1075,540 1100,530 1125,530 C 1150,530 1175,540 1200,540 
+                                                   C 1225,540 1250,530 1275,530 C 1300,530 1325,540 1350,540
+                                                   C 1375,540 1400,530 1425,530 C 1450,530 1475,540 1500,540 
+                                                   C 1525,540 1550,530 1575,530 C 1600,530 1625,540 1650,540
+                                                   L 1650,750 0,750z"/>
+                                <path id="wave2" d="M 0,540 
+                                                   C 25,540 50,530 75,530 C 100,530 125,540 150,540 
+                                                   C 175,540 200,530 225,530 C 250,530 275,540 300,540 
+                                                   C 325,540 350,530 375,530 C 400,530 425,540 450,540 
+                                                   C 475,540 500,530 525,530 C 550,530 575,540 600,540 
+                                                   C 625,540 650,530 675,530 C 700,530 725,540 750,540 
+                                                   C 775,540 800,530 825,530 C 850,530 875,540 900,540
+                                                   C 925,540 950,530 975,530 C 1000,530 1025,540 1050,540 
+                                                   C 1075,540 1100,530 1125,530 C 1150,530 1175,540 1200,540 
+                                                   C 1225,540 1250,530 1275,530 C 1300,530 1325,540 1350,540
+                                                   C 1375,540 1400,530 1425,530 C 1450,530 1475,540 1500,540 
+                                                   C 1525,540 1550,530 1575,530 C 1600,530 1625,540 1650,540
+                                                   L 1650,750 0,750z"/>
+                                <path id="body" d="M1150,352.4c-22.5,152.8-227.6,127.4-274.7,51.8
+                                    c-40.5-65-17.6-164.4,58.3-172.1c45.1-4.6,91.1,37.4,97.7,76.6c3.6,20.9-4.8,75.3,62.2,77c24.8,0.6,25.4-22.5,28-42.7"/>
+                            </g>
+                            <g id="play">
+                                <image id="playButton" xlink:href="/images/fun/play.svg" x="30%" y="30%" width="40%" height="40%" opacity=".5"
+                                       onmouseover="evt.target.setAttribute('opacity', '.8');"
+                                       onmouseout="evt.target.setAttribute('opacity','.5');"></image>
+                            </g>
+                        </svg>
+                        <h6 class="caption">The swimming wale #SVG Animation #Adobe Illustrator #Adobe Brackets</h6>
+                    </div>
+                    <div class="col-xs-12 paragraph">
+                        <img src="images/fun/LOVE_VELO.jpg">
+                        <h6 class="caption">Love your Velo #Adobe Photoshop #Media mix: digital drawing, photograph</h6>
+                    </div>
+                    <div class="col-xs-3 paragraph">
+                        <img src="images/fun/limo.jpg">
+                        <h6 class="caption">Retro Lemmonade bottle #Adobe Illustrator</h6>
+                    </div>
+                    <div class="col-xs-8 col-xs-offset-1 paragraph">
+                        <img src="images/fun/flamingo-digitalpainting.jpg">
+                        <h6 class="caption">The Flamingo is enjoying the sunset #Digital drawing #Paper app</h6>
+                    </div>
+                    <div class="col-xs-12 paragraph">
+                        <img src="images/fun/pismobeach.jpg">
+                        <h6 class="caption">Surfer's Paradise #Adobe Photoshop</h6>
+                    </div>
+                </div>
+                <div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0">
+                    <div class="col-xs-12  col-sm-offset-2 paragraph">
+                        <img src="images/fun/what-is-prototyping.jpeg">
+                        <h6 class="caption">Prototyping is to make ideas tangible #Digital Drawing #Adobe Line</h6>
+                    </div>
+                    <div class="col-xs-12  col-sm-offset-2 paragraph">
+                        <img src="images/fun/triangle_pattern.jpg">
+                        <h6 class="caption">Triangle pattern #Adobe Illustrator</h6>
+                    </div>
+                    <div class="col-xs-12 col-sm-offset-2 paragraph">
+                        <img src="images/fun/butterflyrainbow.jpg">
+                        <h6 class="caption">Frühlingsgefühle #Adobe Illustrator</h6>
+                    </div>
+                    <div class="col-xs-12 col-sm-offset-2 paragraph">
+                        <img src="images/fun/DIY-greetingcard.JPG">
+                        <h6 class="caption">DIY greeting card #handmade #Media mix: cardboard, fabric, magazine pages</h6>
+                    </div> 
+                    <div class="col-xs-12 col-sm-offset-2 paragraph">
+                        <img src="images/fun/flamingopattern.jpg">
+                        <h6 class="caption">Flamingo pattern for fabric printing #Adobe Illustrator</h6>
+                    </div>                    
+                </div>
+            </div>
+    
+    
+        </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 footer visible-xs visible-sm">
+                    <div class="col-xs-2 col-xs-offset-1 linkIcons">
+                        <a href="mailto:silke.neijenhuis@gmail.com" target="_blank"><img src="images/envelope-square.svg"></a>
+                    </div>
+                    <div class="col-xs-2 linkIcons">
+                        <a href="https://www.linkedin.com/in/silke-neijenhuis-a9348b58/" target="_blank"><img src="images/linkedin-square.svg"></a>
+                    </div>
+                    <div class="col-xs-2 linkIcons">
+                        <a href="#imprint" data-toggle="modal" data-target="#imprint"><img src="images/legal-square.svg"></a>                    
+                    </div>
+                </div>
+            </div>
+                
+                
+        <div class="modal fade" id="imprint" tabindex="-1" role="dialog" aria-labelledby="imprint" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="imprint">Imprint/Impressum</h4>
+              </div>
+              <div class="modal-body imprint">
+                <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+                <p>Silke Neijenhuis<br />
+                Grünberger Straße 41<br />
+                10245 Berlin
+                </p>
+                
+                <p>E-Mail: silke.neijenhuis@gmail.com</p>
+                
+                <p>Quelle: <em><a rel="nofollow" href="http://www.e-recht24.de/impressum-generator.html">http://www.e-recht24.de</a></em></p>
+                <hr>
+                <h4>Haftungsausschluss (Disclaimer)</h4>
+                <p><strong>Haftung für Inhalte</strong></p> 
+                <p>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
+                  <p><strong>Haftung für Links</strong></p>
+                  <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+                  <p><strong>Urheberrecht</strong></p>
+                  <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</p>
+                 <br>
+                  <br>
+                  <p><strong>Datenschutzerklärung für die Nutzung von Google Analytics</strong></p> <p>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. ("Google"). Google Analytics verwendet sog. "Cookies", Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.</p> <p>Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.</p> <p>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de">http://tools.google.com/dlpage/gaoptout?hl=de</a>.<p> </p>                  
+                  <p><em>Quellenangaben: <a rel="nofollow" href="http://www.e-recht24.de/muster-disclaimer.html" target="_blank">eRecht24</a></em></p>               
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>   
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-62127806-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>                
+                
+    </body>
+</html>
+      
+      

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="100 0 1100 540" enable-background="new 0 0 1280 540" xml:space="preserve">
+
+<g id="background">
+    <rect x="100" y="0" width="100%" height="520" fill="#244859"></rect>
+    <rect x="100" y="520" width="100%" height="10" fill="#2d5e76"></rect>
+</g>    
+<g id="scotti">
+	<polyline id="trousers" fill="#008E74" points="280,480 400,480 400,500 400,520 360,520 320,520 280,520 	"/>
+	<g id="shirt">
+		<rect x="300" y="380" fill="#FFFFFF" width="80" height="100"/>
+		<polygon fill="#D24335" points="280,500 280,420 260,420 260,380 280,380 280,360 300,360 300,340 320,340 320,500 300,500 		"/>
+		<polygon fill="#D24335" points="400,500 400,420 420,420 420,380 400,380 400,360 380,360 380,340 360,340 360,500 380,500 		"/>
+		<rect x="300" y="340" fill="#E2433B" width="20" height="20"/>
+		<rect x="280" y="360" fill="#E2433B" width="20" height="20"/>
+		<rect x="300" y="380" fill="#E2433B" width="20" height="20"/>
+		<rect x="280" y="400" fill="#E2433B" width="20" height="20"/>
+		<rect x="260" y="380" fill="#E2433B" width="20" height="20"/>
+		<rect x="300" y="420" fill="#E2433B" width="20" height="20"/>
+		<rect x="280" y="440" fill="#E2433B" width="20" height="20"/>
+		<rect x="300" y="460" fill="#E2433B" width="20" height="20"/>
+		<rect x="280" y="480" fill="#E2433B" width="20" height="20"/>
+		<rect x="360" y="360" fill="#E2433B" width="20" height="20"/>
+		<rect x="380" y="380" fill="#E2433B" width="20" height="20"/>
+		<rect x="400" y="400" fill="#E2433B" width="20" height="20"/>
+		<rect x="380" y="420" fill="#E2433B" width="20" height="20"/>
+		<rect x="360" y="400" fill="#E2433B" width="20" height="20"/>
+		<rect x="360" y="440" fill="#E2433B" width="20" height="20"/>
+		<rect x="360" y="480" fill="#E2433B" width="20" height="20"/>
+		<rect x="380" y="460" fill="#E2433B" width="20" height="20"/>
+	</g>
+	<g id="pointerRight" display="none">
+		<polygon id="pointerRight_1_" display="inline" fill="#FFE3CC" points="400,420 400,440 500,440 500,420 540,420 540,400 500,400 
+			500,380 480,380 480,400 420,400 420,420 		"/>
+		
+			<line display="inline" fill="none" stroke="#999999" stroke-width="0.25" stroke-miterlimit="10" x1="500" y1="440" x2="400" y2="440"/>
+		
+			<line display="inline" fill="none" stroke="#999999" stroke-width="0.25" stroke-miterlimit="10" x1="540" y1="420" x2="500" y2="420"/>
+		
+			<line display="inline" fill="none" stroke="#999999" stroke-width="0.25" stroke-miterlimit="10" x1="540" y1="400" x2="540" y2="420"/>
+		
+			<line display="inline" fill="none" stroke="#999999" stroke-width="0.25" stroke-miterlimit="10" x1="500" y1="420" x2="500" y2="440"/>
+	</g>
+	<g id="thumbsupLeft_1_" display="none">
+		
+			<line display="inline" fill="none" stroke="#999999" stroke-width="0.25" stroke-miterlimit="10" x1="340" y1="460" x2="260" y2="460"/>
+		
+			<line display="inline" fill="none" stroke="#999999" stroke-width="0.25" stroke-miterlimit="10" x1="320" y1="400" x2="320" y2="420"/>
+		
+			<line display="inline" fill="none" stroke="#999999" stroke-width="0.25" stroke-miterlimit="10" x1="340" y1="420" x2="340" y2="460"/>
+		<polygon id="thumbsupLeft" display="inline" fill="#FFE3CC" points="260,420 260,460 340,460 340,420 320,420 320,400 300,400 
+			300,440 280,440 280,420 		"/>
+	</g>
+	<polygon id="thumbsupRight" display="none" fill="#FFE3CC" points="400,420 400,460 480,460 480,420 460,420 460,400 440,400 
+		440,440 420,440 420,420 	"/>
+	<polygon id="waveLeft" fill="#FFE3CC" points="260,400 260,420 200,420 200,360 180,360 180,300 240,300 240,340 260,340 260,360 
+		220,360 220,400 	"/>
+	<rect id="armRight" x="400" y="420" fill="#FFE3CC" width="20" height="80"/>
+	<rect id="armLeft" x="260" y="420" display="none" fill="#FFE3CC" width="20" height="80"/>
+	<polygon id="head" fill="#FFE3CC" points="260,220 260,280 280,280 280,340 320,340 320,380 360,380 360,340 400,340 400,280 
+		420,280 420,220 	"/>
+	<polygon id="hair" fill="#FF6D00" points="260,260 280,260 280,220 400,220 400,260 420,260 420,200 400,200 400,180 360,180 
+		360,160 300,160 300,180 280,180 280,200 260,200 	"/>
+	<rect id="moustach" x="300" y="280" fill="#FF6D00" width="80" height="20"/>
+    <rect id="lips" x="320" y="300" fill="#FFC9C0" width="40" height="10">
+        <animate attributeName="height" values="10;20;10" fill="freeze" dur=".5" repeatCount="indefinite" begin="clip1Animation.begin" end="clip1Animation.end - 3s"></animate>
+        <animate attributeName="height" values="10;20;10" fill="freeze" dur=".5" repeatCount="indefinite" begin="clip2Animation.begin" end="clip4Animation.end"></animate>
+    </rect>
+	<rect id="eyeRight" x="360" y="240" width="20" height="20"/>
+	<rect id="eyeLeft" x="300" y="240" width="20" height="20"/>
+</g>
+<g id="speachBubble">
+	<g id="speachBubble_1_">
+		<rect x="520" y="90" opacity="0.6" fill="#fff" width="20" height="10"/>
+		<rect x="500" y="310" opacity="0.6" fill="#fff" width="20" height="10"/>
+		<rect x="540" y="80" opacity="0.6" fill="#fff" width="510" height="10"/>
+		<rect x="520" y="320" opacity="0.6" fill="#fff" width="530" height="10"/>
+		<rect x="510" y="100" opacity="0.6" fill="#fff" width="10" height="10"/>
+		<rect x="460" y="300" opacity="0.6" fill="#fff" width="40" height="10"/>
+		<rect x="470" y="270" opacity="0.6" fill="#fff" width="10" height="10"/>
+		<rect x="480" y="260" opacity="0.6" fill="#fff" width="10" height="10"/>
+		<rect x="460" y="280" opacity="0.6" fill="#fff" width="10" height="10"/>
+		<rect x="450" y="290" opacity="0.6" fill="#fff" width="10" height="10"/>
+		<rect x="500" y="110" opacity="0.6" fill="#fff" width="10" height="20"/>
+		<rect x="490" y="130" opacity="0.6" fill="#fff" width="10" height="130"/>
+		<rect x="1090" y="130" opacity="0.6" fill="#fff" width="10" height="150"/>
+		<rect x="1050" y="90" opacity="0.6" fill="#fff" width="20" height="10"/>
+		<rect x="1070" y="100" opacity="0.6" fill="#fff" width="10" height="10"/>
+		<rect x="1050" y="310" opacity="0.6" fill="#fff" width="20" height="10"/>
+		<rect x="1070" y="300" opacity="0.6" fill="#fff" width="10" height="10"/>
+		<rect x="1080" y="110" opacity="0.6" fill="#fff" width="10" height="20"/>
+		<rect x="1080" y="280" opacity="0.6" fill="#fff" width="10" height="20"/>
+	</g>
+	<g id="textClip">
+		<defs>
+			<rect id="clip1" x="600" y="186" width="20" height="46">
+                <animate id="clip1Animation" attributeName="width" dur="4" begin="2s" values="40;340;340" keyTimes="0;.2;1"/>
+            </rect>
+			<rect id="clip2" x="522" y="140" width="20" height="46">
+                <animate id="clip2Animation" attributeName="width" dur="1" begin="clip1Animation.end + 0.7s" values="40;500" fill="freeze"/>
+            </rect>
+			<rect id="clip3" x="522" y="186" width="20" height="46">
+                <animate id="clip3Animation" attributeName="width" dur="1" begin="clip2Animation.end" values="40;520" fill="freeze"/>
+            </rect>
+			<rect id="clip4" x="522" y="232" width="20" height="46">
+                <animate id="clip4Animation" attributeName="width" dur="1" begin="clip3Animation.end" values="40;500" fill="freeze"/>
+            </rect>
+		</defs>
+		<clipPath id="clipText2">
+			<use xlink:href="#clip2"  overflow="visible"/>
+			<use xlink:href="#clip3"  overflow="visible"/>
+			<use xlink:href="#clip4"  overflow="visible"/>
+		</clipPath>
+		<g id="text2" clip-path="url(#clipText2)">
+			<text transform="matrix(1 0 0 1 540 176)"><tspan x="10" y="0" fill="#fff" font-family="'AndaleMono','Courier'" font-size="38">I help you to create </tspan><tspan x="10" y="45.6" fill="#fff" font-family="'AndaleMono','Courier'" font-size="38">app store screenshots </tspan><tspan x="10" y="91.2" fill="#fff" font-family="'AndaleMono','Courier'" font-size="38">in minutes, not days!</tspan></text>
+		</g>
+        <clipPath id="clipText1">
+			<use xlink:href="#clip1"  overflow="visible"/>
+		</clipPath>
+		<g id="text2" clip-path="url(#clipText1)">
+			<text transform="matrix(1 0 0 1 620 176)"><tspan x="0" y="45.6" fill="#fff" font-family="'AndaleMono','Courier'" font-size="38">Hi, I'm Scott! </tspan></text>
+		</g>
+	</g>
+</g>
+    
+
+</svg>

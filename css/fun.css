@@ -1,0 +1,51 @@
+html { 
+    background: url(../images/background-green.jpg) no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fun {
+    margin-top: 2.5%;
+}
+
+.caption {
+    text-align: left;
+    letter-spacing: .5px;
+}
+
+
+
+.paragraph {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 50px;
+}
+
+.paragraph img {
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+.footer h5 {
+    font-weight: 200;
+}
+
+
+@media (max-width: 992px) {
+    .footer {
+        position: inherit;
+        background-color: rgba(255,255,255,.2);
+        height: 70px;
+        margin-top: 5%;
+        margin-bottom: -20px;
+        padding-top: 2px;
+    }
+}

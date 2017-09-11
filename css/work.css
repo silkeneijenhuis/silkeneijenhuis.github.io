@@ -1,0 +1,122 @@
+html { 
+    background: url(../images/background-green.jpg) no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.modal p {
+    color: rgba(0,0,0,.7);
+}
+
+.modal h4 {
+    color: rgba(0,0,0,.7);
+}
+
+.modal-content {
+    background-color: rgba(255,255,255,.8);
+}
+
+.caption {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.paragraph {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 3%;
+    padding-left: 1%;
+}
+
+.paragraph img {
+    width: 100%;
+    padding: 5px;
+}
+
+.paragraph .glyphicon {
+    margin-left: 5%;
+}
+
+.workImg {
+    padding: 5px;
+}
+
+.appIcon {
+    border-radius: 22%;
+}
+
+.happytIcons img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+}
+
+.features img {
+    width: 72%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ImgMargin {
+    margin-bottom: 16%;
+}
+
+#overlappedScreenshot {
+    margin-top: -15%;
+    -webkit-box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 768px) {
+    .work {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media (max-width: 992px) {
+    .work {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+ul {
+    font-weight: 100;
+    padding-left: 20px;
+    text-indent: -10px;
+}
+
+ul p {
+    margin-bottom: 0;
+}
+
+.footer {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+.footer h5 {
+    font-weight: 200;
+}
+
+@media (max-width: 992px) {
+    .footer {
+        position: inherit;
+        background-color: rgba(255,255,255,.2);
+        height: 70px;
+        margin-top: 5%;
+        margin-bottom: -20px;
+        padding-top: 2px;
+    }
+}
+

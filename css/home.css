@@ -1,0 +1,49 @@
+html { 
+    background: url(../images/background-with-flower.jpg) no-repeat left center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.workImg {
+    padding-top: 5%;
+}
+
+.quote {
+    padding-top: 60vh;
+}
+
+@media (max-width: 768px) {
+    html { 
+        background: url(../images/background-green.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+    }
+    .quote {
+        font-size: 60%;
+        padding-top: 10%;
+    }
+}
+
+.footer {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+.footer h5 {
+    color: #333;
+    font-weight: 200;
+}
+
+@media (max-width: 768px) {
+    }
+    .footer h5 {
+        color: inherit;
+    }
+}
